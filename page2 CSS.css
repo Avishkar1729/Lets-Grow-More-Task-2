@@ -1,0 +1,45 @@
+body{
+    background: url('calculator.jpg') no-repeat center center/cover ;
+}
+
+.calc{
+    position:absolute;
+    background-color:#DCDCDC ;
+    width:320px;
+    height:450px;
+    padding: 5px;
+    margin-top: 150px;
+    margin-left: 750px;
+    
+  }
+  #disp{
+    display:block;
+    height:52px;
+    background-color:#000;
+    margin:8px;
+  }
+  .calc button{ 
+    height:54px;
+    width:71px;
+    background-color:rgb(238, 235, 55);
+    margin : 2px;
+  }
+   #add, #subtr, #mult, #modulus, #dec, #division, #clear, #ans, #dec {
+       background-color: rgb(255, 236, 149);
+   }
+   #clear {
+    background-color:red;
+}
+  #ans{
+    width:150px;
+  }
+  #clear{
+    width:150px;
+  }
+  #disp{
+    padding: 5px;
+    font-size:45px;
+    text-align:right;
+    overflow:auto;
+    background-color:white;
+  }
